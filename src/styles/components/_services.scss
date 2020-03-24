@@ -1,0 +1,36 @@
+.main-services {
+    background-color:$card_background-color ;
+    clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);    
+
+    &__container {
+        display: grid;
+        grid-template-columns : repeat(1, 1fr);
+        grid-gap: 1rem;
+        justify-items: center;
+        
+        @include from (600px){
+            grid-template-columns : repeat(2, 1fr);
+        }
+        @include from (large){
+            grid-template-columns : repeat(3, 1fr);
+        }
+    }
+}
+
+.card {
+    
+    &__icon {
+        font-size: 2.5rem;
+        color: $color-primary;
+    }
+
+    &__bar {
+        background-color: $color-primary;
+        width: 30%;
+        height: 2px;
+        margin: auto;
+    }
+    &__text {
+        font-size: 14px;
+    }
+}

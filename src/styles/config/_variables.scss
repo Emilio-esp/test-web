@@ -1,0 +1,27 @@
+// $color-primary:#D4A98E;
+// $color-dark:#524D49;
+// $card_background-color:#F7F0EB;
+// $color-primary:#F23827;
+// $color-dark:#6204BF;
+// $card_background-color:#F7F0EB;
+// $color-primary:#F20505;
+// $color-dark:#400101;
+// $card_background-color:#F7F0EB;
+$color-primary:rgb(224, 46, 79);
+$color-dark:#2e2a44;
+$card_background-color:#F7F0EB;
+
+$card_width : 18rem;
+$card_height : 18rem;
+
+$break-points:(
+    large:1024px
+);
+
+:root {
+  --z-back    : -10;
+  --z-normal  : 1;
+  --z-tooltip : 10;
+  --z-fixed   : 100;
+  --z-modal   : 1000;
+}

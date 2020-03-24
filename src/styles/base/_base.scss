@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
